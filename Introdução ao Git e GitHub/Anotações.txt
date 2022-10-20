@@ -1,0 +1,15 @@
+##Link para donwload do Git: https://git-scm.com/downloads
+
+**O Git Bash é um terminal extendido para otimizar o uso do Git.**
+
+##Comandos básicos do Git:
+
+ git add . -> _adiciona todos as ações feitas, mas somente adiciona no controle de versão Local._
+
+ git commit -m "Inclusão das anotações do curso Git/GitHub"
+
+Para enviar todas as alterações feitas localmente(do seu computador), para a o GitHub(núvem), necessário é colocar o comando push.
+
+ git push origin main
+
+

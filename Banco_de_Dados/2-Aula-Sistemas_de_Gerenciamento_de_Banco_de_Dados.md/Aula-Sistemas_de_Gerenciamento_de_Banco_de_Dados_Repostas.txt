@@ -1,0 +1,128 @@
+Metadados e Esquemas
+
+Abstração
+
+Dentre as atribuições do administrador de banco de dados, qual não 
+pertence a este escopo?
+
+- Orquestração dos serviços.
+
+- Autorização de acesso.
+
+- Levantamento de dados e requisitos [OK]
+
+- Gerenciar Recursos.
+
+- Implementação da estrutura de dados.
+
+Os usuários finais são o foco e propósito final de um SGBD. Dentre as categorias de usuários
+finais, qual destes representa a maioria dos acessos?
+
+- Desenvolvedores de software
+
+- Standalone
+
+- Naives(ingênuos)[OK]
+
+- Sofisticados
+
+- Casuais
+
+Os SGBDs podem variar de contexto logal, onde existe apenas um usário matenedor, à uma 
+organização empresarial com milhares de acessos, como acontece em sistemas voltados para 
+e-commerce. Sendo assim, os papéis dentro do contexto de BDs são os mesmos. O que varia
+é a quantidade de pessoas que executa. Podemos definir os atores relacionados diretamento
+ao contexto de SGBDS, são estes: 
+
+
+- Nenhuma das alternativas
+
+- Gerenciadores de usuários finais
+
+- Admin, staff do admin e usuários
+
+- Designer, admin, e usuários finais[OK]
+
+- Administrador e usuários finais
+
+#Na abordagem tradicional, tanto o modelo quanto o gerenciamento dos dados estão contidos
+dentro do programa. Dessa forma, uma eventual modificação na estrutura acarretaria em 
+problemas de reescrita de códigos. Além disso, outros problemas podem ser encontrados.
+
+- Nenhuma das alternativas
+
+- Não compartilhamento de informações mesmo que em arquivos distintos
+
+- Redundância e repetição de esforço[OK]
+
+- Tipo de armazenamento de dados não eficiente para buscas
+
+- Retrabalho de inconsistência dentro do arquivo de origem
+
+#Dentre os papíes de um SGBD, o mesmo deve ser capaz de controla acesso concorrente de múltiplos
+usuários. ALém disso, estes múltiplos usuários podem ter contextos e perfis de acesso
+distintos relacionados aos dados. Dessa forma, quais característias da arquitetura do SGBD
+estão diretamente ligadas ao cenário supracitado?
+
+- Abstração e isolamento
+
+- Auto-descrição e múltiplas visões
+
+- Controle de acesso e isolamento
+
+- Abstração e views
+
+- Table views e controle de concorrência[OK]
+
+#A natureza auto-descritiva do SGBD está ligada a dois componentes de seu sistema. Nestes componentes
+são definidoas as informações relacionadas à estrutura dos dados, assim como a estrutura propriamente
+dita. Dentre as opções abaixo, qual está relacionada às definições anteriormente ditas?
+
+- Metadados e esquema[OK]
+
+- Estados e esquema
+
+- Instâncias e Dicionário de Dados
+
+- Metadados  e Instâncias
+
+- Nenhuma das alternativas.
+
+#Os SGBDs - Sistemas de gerenciamento de banco de dados - são software de propósito geral que visam 
+manter e gerenciar dados que serão utilizados por diversos usuários. Dentre as principais características 
+associadas a abordagem de SGBDs, qual delas está diretamente relacionada ao isolamento de dados e programas?
+
+- Trasações multi-usuários
+
+- Abstração[OK]
+
+- Compartilhamento
+
+- Views
+
+- Auto-descrição
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

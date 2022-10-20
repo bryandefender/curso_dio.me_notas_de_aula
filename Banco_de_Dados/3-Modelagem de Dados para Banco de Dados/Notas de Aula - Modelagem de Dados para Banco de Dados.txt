@@ -1,0 +1,92 @@
+
+
+### Modelagem de Dados para Banco de Dados.
+ 
+  
+##*Aula 1:* _Introdução à Modelagem de dados - Parte 1_
+
+
+Modelagem: 
+
+	Representação
+	Modelo 
+	Referência, que irã servir de base para outros cenários.
+
+
+Definição de Modelagem: 
+
+Possui foco na descrição e relacionamento dos e
+lementos que compõem a representação do contexto(mini-mundo).
+
+
+Processos da Modelagem: 
+
+	Mini-mundo -> Delimita o contexto dos dados
+	Alto nível -> Requisitos para criação do modelo
+	Esquema    -> Definindo estrutura relacional
+	SGBD       -> Implementando - Criando o DB
+
+E o Esquema? 
+
+	Modelos de alto nível: 
+
+	- Entidade-Relacionamento
+	- UML(Unfied Modeling Language), muito usada, acabando entrando em desuso, 
+	por causa da abordagem mais voltada ao efeito cascata, as Metodolias Ágeis
+	assumiram o lugar da UML, sendo mais utilizada. 
+	
+	
+
+##*Aula 2:* _Introdução à Modelagem de dados - Parte 2_
+
+			
+	UML -> Trás consigo o paradigma de Orientações à Objetos(POO)
+
+
+	Como inserir as informações no BD?
+
+	 	Usa-se a linguagem SQL, que é uma linguagem declarativa voltada a consulta
+		de dados dentro do SGBD baseada na teoria de conjuntos.
+
+
+##*Aula 3:* _Instalação MysqL Windows_
+
+ - Foi ensinado como baixar e instalar o MySQL
+
+##*Aula 4:* _PostgreSQL Windows_
+
+##*Aula 5:* _Instalando MySQL no Ubuntu_
+
+##*Aula 6:* _Instalando PostgreSQL no Ubuntu_
+
+
+##*Aula 7:* _Explorando Comandos Básicos SQL_
+
+
+
+
+
+	
+
+	
+
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

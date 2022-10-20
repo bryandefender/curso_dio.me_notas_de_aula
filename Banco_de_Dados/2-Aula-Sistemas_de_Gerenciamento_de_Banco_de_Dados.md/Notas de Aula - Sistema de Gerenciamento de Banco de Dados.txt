@@ -1,0 +1,204 @@
+
+
+### Sistemas de Gerenciamento de Banco de Dados
+ 
+  
+##*Aula 1:* _Abordagem de SGBDs versus Abordagem Tradicional_
+
+
+Na *abordagem tradicional* - tratar problema de redundância é mais complexo.
+Imagine a necessidade de acrescentar uma modificação é necessário dar um down 
+no  sistema, atualizar e depois subir novamente.
+
+
+Em *SGBD* já não necessita mexer na estrutura da aplicação para fazer certas 
+alterações, diferente da *abordagem tradicional*.
+
+#Características principais de um SGBD:#
+
+	- Abstração
+	- Isolamento
+	- Múltiplas visões
+	- Auto-descrição
+	- Compartilhamento
+	- Transação multiuser 
+
+
+
+##*Aula 2: _Natureza Auto-descritiva da Abordagem de Banco de Dados_
+
+SGBD relacional(mais comum), possui _Auto-drescrição_ de si mesmo, os dois componentes
+abaixo são responsáveis por essa característica: 
+
+ - Metadados
+ - Schema
+
+Obs¹: _NoSQL não possuem uma estrutura para fornecer essa característica de Auto-descrição,
+pois já possuem a auto-descrição dentro do próprio arquivo._
+
+
+
+##*Aula 3:* _Isolamento Program/data e Abstração._
+
+Abordagem tradicional:
+
+ _Uma modificação acarreta em uma reestruturação_
+
+Abordagem de BD(SGBD):
+
+ _Uma modificação não acaba impactando na aplicação como no na Abordagem tradicional_
+
+
+## *Aula 4:* _Suporte à Mpultiplas Visões dos Dados_
+
+## *Aula 5:* _Compartilhamento de dados e Processamento de Transações Multiusuários_
+
+
+	Design - Múltiplus Usuários:
+
+	Problema: multiplos acessos
+		
+		Necessário é ter uma boa integração e manutenção.
+
+	_Concurrency Control_
+
+	Exemplo: Reserva de acento na compra de uma passagem aéra.
+
+	OLTP - Online Transaction Processing. -> Insert, Delete, Uptdate(imagem @slide)
+
+
+## *Aula 6:* _Abordagem de banco de dados - Quais são os Atores em Banco de Dados_
+
+
+ 	_Atores_
+
+		Disgner: Identificar dados e requisitos
+			 Representação e Estrutura
+			 Fase preliminar
+
+		DBA - Administrador do BD:
+			
+			 Gerenciar recursos
+			 Orquestração
+	 		 Autorização de acesso
+			
+		Usuários Finais: 
+			
+			 Acesso -> Querying
+			 Categorizados
+
+	
+	Qual que é a finalidade do SGBD: _Implementar diversos recursos para facilitar a vida dos usuários SGBDs, 
+	ou seja, fornecer dados._
+
+
+## *Aula 7:* _Workers em background - Banco de Dados_
+
+	Outros atores relacionados ao SGBD, mas não estão ligados ao cenário de SGBD.
+
+	
+	Fora do Contexto BD: 
+
+		- Designer de sistema de SGBD 
+		- Implementação do sistema SGBD 
+		- Pessoal de operação de manutenção
+		- Desenvolvedores de ferramentas.
+			Devs, segurança, performance, analista de dados, etc...
+
+
+		
+## *Aula 8:* _Vantagens de Utilizar a Abordagem de SGBDs_
+
+	Vantagens do SGBD:
+
+		- Controle de Redundância
+		- Restrição de acesso
+			(DBA)
+		- Storage - prove persistência
+			(Impedance Mismatch Problem)
+		- Storage - prove estrutura
+		- Backup e Recovery
+
+		A estrutura é feita em árvores, isso otimiza as buscas no SGBD.
+
+
+		Triggers, ações automatizadas dentro do SGBD,
+		exemplo: modificado é uma informação, a partir disso automaticamente outro atribuição é modificada(atualizada.)
+
+
+## *Aula 9:* _Ganhos em utilizar SGBDs_
+
+
+	Ganhos com SGBD: 
+
+		- Padronização do modelo relacional, persiste os dados do contexto em questão.
+			Tipos de dados, display, relatórios.
+		- Redução de tempo no desenvolvimento da aplicação
+			
+		- Flexibilidade
+		- Disponibilidade de info atualizadas
+		- Economia com escabilidade
+
+## *Aula 10:* _Quando não usar SGBD_
+
+	Custo de overhead vs Custo-benfício
+
+	Custo: 
+
+	- Investimento incial
+	- Generalidade da definição e processamento.
+	- Segurança, controle de concorrência, recovery, funções de integridade.
+
+	Alguns cenários que não se utiliza SGBD: 
+
+	Acesso unário -> exemplo: Projeto de analise de dados de uma empresa para otimizar o
+			 sistema de negócios, utilizando python.
+
+	Embedded Systems(Sistemas Embarcados)
+
+	
+
+	
+
+
+
+	
+
+		
+
+
+
+
+
+	
+
+	
+
+	
+
+
+
+
+			
+	
+
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
